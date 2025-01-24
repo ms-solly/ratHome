@@ -152,7 +152,7 @@ export default function Contact() {
     <div className="mt-12">
       <h3 className="text-2xl font-semibold text-white">Email Me</h3>
       <p className="text-lg text-gray-400 mt-4">
-        Drop me a message at: <Link href="mailto:akriti@example.com" className="text-teal-400 hover:text-pink-500">akriti@example.com</Link>
+        Drop me a message at: <Link href="mailto:akrati0305@gmail.com" className="text-teal-400 hover:text-pink-500">akrati0305@gmail.com</Link>
       </p>
     </div>
   </div>
