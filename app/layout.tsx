@@ -4,8 +4,8 @@ import { Footer } from "./components/Footer";
 import Background from "@/components/Bg";
 
 export const metadata = {
-  title: "ratHome Portfolio",
-  description: "A cozy and creative portfolio website",
+  title: "ratHome",
+  description: "Akrati B.'s Professional portfolio",
 };
 
 

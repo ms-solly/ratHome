@@ -17,7 +17,7 @@ export default function About() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-6xl font-extrabold bg-gradient-to-r from-teal-400 to-pink-500 text-transparent bg-clip-text">
+          <h1 className=" my-2 text-6xl font-extrabold bg-gradient-to-r from-teal-400 to-pink-500 text-transparent bg-clip-text">
             About
           </h1>
         </motion.div>

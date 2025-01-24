@@ -1,7 +1,7 @@
 "use client"
 import { motion } from "framer-motion";
 import Link from "next/link";
-import {  FaInstagram, FaGithub } from "react-icons/fa"; // Social media icons
+import {  FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa"; 
 import { RiTwitterXFill } from "react-icons/ri";
 
 export function Footer() {
@@ -19,7 +19,7 @@ export function Footer() {
               RatHome
             </h3>
             <p className="mt-2 text-lg text-gray-400">
-              A cozy digital space where creativity and cuteness collide.
+              Akrati B's Professional Portfolio
             </p>
           </motion.div>
 
@@ -29,7 +29,6 @@ export function Footer() {
             transition={{ duration: 1 }}
             className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8"
           >
-            <Link href="/home" className="text-lg text-gray-300 hover:text-teal-300 transition-colors duration-300">Home</Link>
             <Link href="/about" className="text-lg text-gray-300 hover:text-teal-300 transition-colors duration-300">About</Link>
             <Link href="/services" className="text-lg text-gray-300 hover:text-teal-300 transition-colors duration-300">Services</Link>
             <Link href="/contact" className="text-lg text-gray-300 hover:text-teal-300 transition-colors duration-300">Contact</Link>
@@ -41,19 +40,21 @@ export function Footer() {
             transition={{ duration: 1 }}
             className="flex space-x-6 mt-4 md:mt-0"
           >
-            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-400 hover:text-pink-400 transition-colors duration-300">
+            <Link href="https://x.com/InkandInspire" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-400 hover:text-pink-400 transition-colors duration-300">
              <RiTwitterXFill/>
             </Link>
-            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-400 hover:text-pink-400 transition-colors duration-300">
+            <Link href="https://www.instagram.com/designdevloop/" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-400 hover:text-pink-400 transition-colors duration-300">
               <FaInstagram />
             </Link>
-            <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-400 hover:text-pink-400 transition-colors duration-300">
+            <Link href="https://github.com/Akrati00/" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-400 hover:text-pink-400 transition-colors duration-300">
               <FaGithub />
+            </Link>
+            <Link href="https://www.linkedin.com/in/akrati-bhadauria/" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-400 hover:text-pink-400 transition-colors duration-300">
+              <FaLinkedin />
             </Link>
           </motion.div>
         </div>
 
-        {/* Bottom Section - Crafted with Heart */}
         <div className="mt-8 border-t border-gray-800 pt-4 flex flex-col md:flex-row justify-center items-center space-y-3 md:space-y-0 md:space-x-4">
           <p className="text-gray-400 text-sm flex items-center">
             Crafted with 

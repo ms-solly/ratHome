@@ -9,7 +9,7 @@ export function Hero() {
           Welcome to RatHome
         </h1>
         <p className="text-lg text-gray-400 mt-6 leading-relaxed max-w-md">
-          Discover a unique and cozy digital experience that combines creativity and cuteness in the most engaging way.
+          I am Akrati B. Web developer & UI/UX designer. I enjoy designing stuff, use the colors to make my imagination into reality.
         </p>
       </div>
 
