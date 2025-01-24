@@ -40,7 +40,7 @@ export default function About() {
           </p>
           <p className="text-lg text-gray-300">
             I’m always excited to learn new things and collaborate with others. If you’re interested in connecting or sharing ideas, feel free to reach out {" "}
-            via <Link href="/blog" className="text-teal-400 hover:text-pink-400 transition-colors duration-300 ">
+            via <Link href="/contact" className="text-teal-400 hover:text-pink-400 transition-colors duration-300 ">
               Contacts 
             </Link>{" "}!
           </p>
